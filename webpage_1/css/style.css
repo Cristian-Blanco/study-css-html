@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background: rgba(54, 54, 54, 0.295);
+    padding: 0 20px;
+    /* box-sizing: border-box;
+    overflow: hidden; */
+}
+
+.icon{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    margin: 10px 40px;
+}
+
+body{
+    background: rgba(0,0,0,1) url("https://images.unsplash.com/flagged/photo-1556302579-89a98fb9e0bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1490&q=80") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu{
+    color: white;
+    margin: auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+    color: white;
+    margin: auto 0;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 0 0 0 40px;
+}
+
+
+h3{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+.text-center{
+    position: absolute;
+    top: 40%;
+    margin: 0 50px;
+}
+
+.contacto{
+    margin: auto;
+
+}
