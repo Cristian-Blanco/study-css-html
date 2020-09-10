@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Anton", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: #f1bb23;
+}
+
+.select {
+  margin-bottom: 600px;
+  text-align: center;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #3f3d3d9f;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+}
+
+.panel.is-active {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+a {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  color: #f5f1f1;
+  text-align: center;
+  text-decoration: none;
+  padding: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+a:hover {
+  background: #f0921793;
+}
+
+.btn-style {
+  position: fixed;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 50%;
+  bottom: 1vh;
+  right: 1vh;
+  background: red;
+}
+/*# sourceMappingURL=styles.css.map */
